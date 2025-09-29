@@ -1,6 +1,6 @@
 # AEON Bank Frontend Challenge Solution
 
-This project implements the required features (Multi-Step Login Flow and Transaction History Dashboard) using **Next.js 14 (App Router)** and **TypeScript**, styled with **Tailwind CSS (AEON Pink Theme)**.
+This project implements the required features (Multi-Step Login Flow and Transaction History Dashboard) using **Next.js 14 (App Router)** and **TypeScript**, styled with **Tailwind CSS**.
 
 The solution includes state persistence using **React Context** and **Local Storage** to ensure the login status remains active across page reloads.
 
