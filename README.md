@@ -10,7 +10,7 @@ The solution includes state persistence using **React Context** and **Local Stor
 | :--- | :--- | :--- |
 | `app/layout.tsx` | Root Layout. Wraps content with the Client Wrapper. | - |
 | `app/page.tsx` | **Dashboard Page**. Fetches and displays the Transaction History Table (Challenge 3). **Only loads if logged in.** | **Challenge 3** |
-| `app/login/page.tsx` | **Multi-Step Login Flow** (Username -> Secure Word -> Password). Includes username validation. | **Challenge 2** |
+| `app/login/page.tsx` | **Multi-Step Login Flow** (Username -> Secure Word -> Password). | **Challenge 2** |
 | `app/api/login/route.ts` | Mock API for final login submission. | **Challenge 2** |
 | `app/api/getSecureWord/route.ts` | Mock API for fetching the secure word. | **Challenge 2** |
 | `app/api/transaction-history/route.ts` | Mock API for fetching transaction data. | **Challenge 3** |
@@ -22,8 +22,7 @@ The solution includes state persistence using **React Context** and **Local Stor
 
 1.  **Clone the Repository:**
     ```bash
-    git clone 
-    cd aeon-challenge
+    git clone https://github.com/afiqaimanafr/aeon-bank-frontend-assessment.git
     ```
 
 2.  **Install Dependencies:**
